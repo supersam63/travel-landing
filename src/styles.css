@@ -177,8 +177,8 @@ section.secondary {
   max-width: 100%;
 }
 .gallery video {
-  height: 300px;
   max-width: 100%;
+  height: 300px;
 }
 
 footer {
@@ -229,7 +229,7 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 10px;
   }
   section {
     padding: 30px;
@@ -237,8 +237,12 @@ footer a {
   .card-header .img-responsive {
     display: none;
   }
-  .embed {
+  .gallery video {
+    max-width: 495px;
     width: 100%;
+    height: 100%;
+  }
+  .embed {
     aspect-ratio: 16/9;
   }
 }
