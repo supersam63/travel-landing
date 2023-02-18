@@ -132,7 +132,7 @@ section {
   padding: 100px;
 }
 section.secondary {
-  background-color: grey;
+  background-color: #f8f8f8;
 }
 .button {
   display: block;
