@@ -6,10 +6,24 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
 }
 .grid {
   display: grid;
@@ -18,8 +32,14 @@ section {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
-.grid-3-columns {
+.grid-3-columns-narrow-first-row {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.text-center {
+  text-align: center;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
@@ -85,12 +105,46 @@ main h2 {
   color: #272044;
   margin: 0;
 }
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
 main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+section.secondary {
+  background-color: grey;
+}
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 16px;
+  background-color: blue;
+  text-decoration: none;
 }
 
 footer {
@@ -145,4 +199,8 @@ footer a {
   section {
     padding: 30px;
   }
+}
+img {
+  width: 180px;
+  height: 200px;
 }
