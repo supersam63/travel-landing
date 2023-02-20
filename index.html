@@ -10,7 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Welcome to Dubai</title>
+    <title>Welcome to Dubai | Responsive Project</title>
+    <meta
+      name="description"
+      content="A landing page for traveling to Dubai.
+    Created for my Shecodes Responsive project." />
   </head>
   <body>
     <div class="container">
@@ -18,7 +22,7 @@
         <h3>.TRAVEL.</h3>
         <h1>Welcome to Dubai</h1>
         <h2>One of the Seven Emirates</h2>
-        <a href="#more">Learn More</a>
+        <a href="#more" title="Learn more about Dubai">Learn More</a>
       </header>
       <main>
         <section class="grid grid-2-columns why-dubai">
@@ -60,7 +64,7 @@
               <div class="card-header grid grid-2-columns">
                 <img
                   src="images/Burj kalifa.jpeg"
-                  alt=""
+                  alt="the Burj Kalifa"
                   class="img-responsive" />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5510.129316974806!2d55.2720875339845!3d25.195849713082456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sus!4v1676685231015!5m2!1sen!2sus"
@@ -96,13 +100,17 @@
                   href="https://tickets.atthetop.ae/atthetop/en-us?_ga=2.90107033.348809386.1676681419-1770132630.1676681419"
                   target="_blank"
                   class="button"
+                  title="Get tickets to the Burj Kalifa"
                   >Tickets</a
                 >
               </div>
             </div>
             <div class="card">
               <div class="card-header grid grid-2-columns">
-                <img src="images/Desert.jpeg" alt="" class="img-responsive" />
+                <img
+                  src="images/Desert.jpeg"
+                  alt="Excursion to the dunes"
+                  class="img-responsive" />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d144160.16752043364!2d55.41598473672531!3d25.102008881759286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1676685830368!5m2!1sen!2sus"
                   class="embed"
@@ -137,6 +145,7 @@
                   href="https://www.oceanairtravels.com/experience/dubai/red-dunes-dubai-desert-safari"
                   target="_blank"
                   class="button"
+                  title="Gte tickets for a dune excursion"
                   >Tickets</a
                 >
               </div>
@@ -145,7 +154,7 @@
               <div class="card-header grid grid-2-columns">
                 <img
                   src="images/Global village .jpeg"
-                  alt=""
+                  alt="Global village at night"
                   class="img-responsive" />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19340.98674445605!2d55.297148912696116!3d25.068583260266763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6fb062a7a4d9%3A0xa3af4715dcd518c8!2sGlobal%20Village!5e0!3m2!1sen!2sus!4v1676685988955!5m2!1sen!2sus"
@@ -180,6 +189,7 @@
                   href="https://www.globalvillage.ae/en/buy?ttms=1676640544"
                   target="_blank"
                   class="button"
+                  title="Get tickets to Global Village"
                   >Tickets</a
                 >
               </div>
@@ -192,12 +202,15 @@
             <h2 class="text-center">My photos from Dubai</h2>
           </div>
           <div class="gallery grid">
-            <img src="images/Atop the Burj.jpeg" />
-            <img src="images/Dubai Frame.jpeg" />
-            <img src="images/Ski Dubai.jpeg" />
-            <img src="images/Night Desert.jpeg" />
-            <video src="images/xlinesmall.MP4" controls></video>
-            <img src="images/Mosque.jpeg" />
+            <img src="images/Atop the Burj.jpeg" alt="Atop the Burj Kalifa" />
+            <img src="images/Dubai Frame.jpeg" alt="Dubai frame" />
+            <img src="images/Ski Dubai.jpeg" alt="Ski Dubai" />
+            <img src="images/Night Desert.jpeg" alt="Desert at night" />
+            <video
+              src="images/xlinesmall.MP4"
+              controls
+              alt="Zipline down the Xline Dubai"></video>
+            <img src="images/Mosque.jpeg" alt="Jumeirah Mosque" />
           </div>
         </section>
       </main>
@@ -207,7 +220,10 @@
             <h3>More about Dubai</h3>
             <ul>
               <li>
-                <a href="https://www.dubaiairports.ae/" target="_blank"
+                <a
+                  href="https://www.dubaiairports.ae/"
+                  target="_blank"
+                  title="See airport website"
                   >Airport website</a
                 >
               </li>
@@ -216,6 +232,7 @@
                   href="https://goo.gl/maps/VYePG9AHGcK6Gut96"
                   target="_blank
               "
+                  title="Check out a map of Dubai"
                   >Map of Dubai</a
                 >
               </li>
@@ -223,6 +240,7 @@
                 <a
                   href="https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map"
                   target="_blank"
+                  title="See the Metro map"
                   >Public transportation map</a
                 >
               </li>
@@ -235,7 +253,8 @@
               project is
               <a
                 href="https://github.com/supersam63/travel-landing"
-                target="_blank">
+                target="_blank"
+                title="This page's gitHub repository">
                 open-sourced
               </a>
               coded as part of my SheCodes workshop.
